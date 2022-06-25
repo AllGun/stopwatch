@@ -24,10 +24,12 @@ ul {
     display: flex;
     flex-direction: row;
     list-style: none;
+    z-index: + 2;
 }
 
 li {
     margin: 20px;
+    z-index: 999;
 }
 
 .social-img {
